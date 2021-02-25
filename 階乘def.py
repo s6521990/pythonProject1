@@ -5,7 +5,7 @@ x = 6
 def fun(t):
     a = 1
     for c in range(a, t+a):
-        a *= c
+        a = a * c
         print(a)
 
 
