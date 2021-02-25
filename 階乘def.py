@@ -1,13 +1,9 @@
-x = 6
-
-
-
-def fun(t):
+def factorial(t):
     a = 1
-    for c in range(a, t+a):
+    for c in range(a, t + a):
         a = a * c
         print(a)
 
 
-
-ans = fun(x)
+x = 6
+ans = factorial(x)
